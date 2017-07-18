@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body {
+	background-image: url(../imagenes/FondoIdiomas.jpg);
+}
+
+#contenedor {
+	width: 90%;
+	
+	position:relative;
+	margin: 0 auto;
+}
+
+#infoConexion, #infoRegistro {
+	width: 50%;
+	
+	position:relative;
+	margin: 0 auto;
+	padding: 10px;
+	
+	text-align: center;
+	
+	background: green;
+}
+
+#formIdent, #formReg {
+	width: 50%;
+	
+	position:relative;
+	margin: 0 auto;
+	padding: 10px;
+	
+	text-align: left !important;
+	
+	background: white;
+}
+
+label, input {
+	display: block;
+	margin: 10px;
+}

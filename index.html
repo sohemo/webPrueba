@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejemplo Conexión</title>
+
+		<link href="estilos/estilos.css" rel="stylesheet" type="text/css">
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="javaScript/ourJS.js"></script>
+	</head>
+	
+	<body>
+		<div id="contenedor">
+			<div id="infoConexion">
+				<div id="formConexion">
+					<h1>Datos Conexión</h1>
+					<form name="formIdent" action="javascript:iniciarConexion();" onsubmit="return valConexion()" id="formIdent" class="formUsu">
+						<label for="nombre" class="etiqFI">Nombre:</label>
+						<input type="text" name="nombre" id="nombre" class="campFI">
+						<label for="contrasena" class="etiqFI">Contraseña:</label>
+						<input type="password" name="contrasena" id="contrasena" class="campFI">
+						
+						<input type="submit" name="conectar" value="Conectar">
+					</form>
+				</div>
+				<h2 id="conexion"></h2>
+				<input type="submit" name="nuevoUsu" value="Registrar Nuevo Usuario" id="btnNuevoUsu">
+			</div>
+			<div id="infoRegistro">
+				<div id="formRegistro">
+					<h1>Datos Usuario</h1>
+					<form name="formReg" action="javascript:registroUsuario();" onsubmit="return valRegistro()" id="formReg" class="formUsu">
+						<label for="nombre" class="etiqFR">Nombre:</label>
+						<input type="text" name="nombre" id="nombre" class="campFR">
+						<label for="email" class="etiqFR">eMail:</label>
+						<input type="email" name="email" id="email" class="campFR">
+						
+						<input type="submit" name="registra" value="Nuevo Usuario">
+					</form>
+				</div>
+				<h2 id="registro"></h2>
+			</div>
+		</div>
+		
+		<script>pageCargada();</script>
+	</body>
+</html>
