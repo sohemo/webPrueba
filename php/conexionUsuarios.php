@@ -1,5 +1,5 @@
 <?php
-	/* Vamos a añadir todos los phps que necesitamos para realizar las operaciones */
+	/* GIT GIT GIT GIT Vamos a añadir todos los phps que necesitamos para realizar las operaciones */
 	include ("comunes/bd.php");
 	include ("comunes/funcionesComunes.php");
 	include ("sql/usuarios.php");
